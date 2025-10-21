@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: silver;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-family: 'SUSE Mono', monospace;
+}
+header{
+	background-color: royalblue;
+	padding-bottom: 2px;
+	text-align: center;
+}
+nav{
+	color: aliceblue;
+}
+
+ul{
+	
+}
+
+li{
+	list-style-type: none;
+	display: list-item;
+	margin-right: 10px;
+}
+
+.posttime{
+	color: yellow;
+	font-size: 1em;
+}
+
+h1 {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+}
+
+ol {
+	color: darkgoldenrod;
+}
+
+h2 {
+	color: darkblue;
+	font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+p {
+	font-family: 'SUSE Mono', monospace;
+	color: darkslategray;
+}
