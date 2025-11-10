@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family: 'Unbounded', Arial, sans-serif;
+}
+
+header {
+  background: white;
+  padding: 15px 40px;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  font-size: 24px;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: green;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.button:hover {
+  background: darkgreen;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
