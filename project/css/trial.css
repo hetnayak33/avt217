@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  background: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 2px solid white;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header h1:hover {
+  color: orange;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+	color: green;
+}
+
+section {
+  position: relative;
+}
+
+section img {
+  width: 100%;
+  display: block;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.button {
+  background: green;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.button:hover {
+  background-color: orangered;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.aboutus {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+}
+
+.aboutus img {
+  width: 50%;
+}
+
+.about {
+  width: 50%;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.hour {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.time {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  font-size: 18px;
+  margin-left: 7.5%;
+}
+
+.map {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  text-align: right;
+}
+
+.map img {
+  width: 100%;
+}
+
+h2{
+	text-align: center
+}
+
+.event1, .event2, .event3 {
+  width: 85%;
+  margin: 60px auto;
+  text-align: center;
+  color: white;
+}
+
+.event1 img, .event2 img, .event3 img {
+  width: 40%;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.event1 h3, .event2 h3, .event3 h3 {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+.event1 p, .event2 p, .event3 p {
+  font-size: 18px;
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+.menu-categories {
+  width: 100%;
+  background: #222;
+  padding: 20px 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+.menu-categories a {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+.menu-categories a:hover {
+  color: orange;
+}
+
+.menu-section-title {
+  width: 85%;
+  margin: 40px auto 20px;
+  font-size: 28px;
+  text-align: left;
+}
+
+.menu-grid {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 47%;
+  background: #111;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.menu-text {
+  width: 55%;
+}
+
+.menu-text h4 {
+  margin: 0 0 10px;
+}
+
+.menu-text p {
+  margin: 6px 0;
+}
