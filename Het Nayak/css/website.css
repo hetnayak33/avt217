@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  background: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1:hover {
+  color: orange;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: green;
+}
+
+section {
+  position: relative;
+}
+
+section img {
+  width: 100%;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  background: green;
+  color: white;
+  padding: 12px 24px;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: orangered;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.aboutus {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  display: flex;
+  align-items: center;
+}
+
+.aboutus img {
+  width: 50%;
+}
+
+.about {
+  width: 50%;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.hour {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.time {
+  width: 50%;
+  margin-left: 7.5%;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.map {
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+}
+
+.map img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.event1 img,
+.event2 img,
+.event3 img {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.menu {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+.type {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.food {
+  width: 47%;
+  background: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food img {
+  width: 40%;
+  border-radius: 8px;
+}
+
+.description {
+  width: 55%;
+}
+
+.description h4 {
+  margin-bottom: 8px;
+}
+
+.description p {
+  margin: 5px 0;
+}
